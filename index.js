@@ -18,7 +18,7 @@ function takeANumber(currentPos, name){
   this.isEmpty = function() {
     return (katzDeliLine.length === 0);
   };
-  var welcomeMsg = "Welcome, " + name + ". You are number " + currentPos + " in line.";
+  var welcomeMsg = "Welcome, " + name + ". You are number " + katzDeliLine.length + " in line.";
   
   return welcomeMsg;
 }
