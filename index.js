@@ -1,6 +1,7 @@
 function takeANumber(currentPos, name){
+  
   this.print = function() {
-    console.log(currentPos);
+    console.log(k);
   };
   this.enqueue = function(element) {
     currentPos.push(element);
