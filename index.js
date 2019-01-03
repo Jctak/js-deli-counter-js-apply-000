@@ -1,4 +1,5 @@
 function takeANumber(currentPos, name){
+  var currentPosition;
  if(currentPos === 0){
    currentPosition = 1;
  }else {
