@@ -2,8 +2,8 @@ function takeANumber(currentPos, name){
   this.print = function(){
     console.log(currentPos);
   };
-  this.enqueue = function(){
-    element.
+  this.enqueue = function(element){
+    collection.push()
   }
   var welcomeMsg = "Welcome, " + name + ". You are number " + currentPos + " in line.";
   
