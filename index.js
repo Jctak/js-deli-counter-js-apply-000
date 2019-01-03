@@ -1,22 +1,22 @@
 function takeANumber(currentPos, name){
-  
+  katzDeliLine = [];
   this.print = function() {
-    console.log(k);
+    console.log(katzDeliLine);
   };
   this.enqueue = function(element) {
-    currentPos.push(element);
+    katzDeliLine.push(element);
   };
   this.dequeue = function() {
-    return currentPos.shift();
+    return katzDeliLine.shift();
   };
   this.front = function() {
-    return currentPos[0];
+    return katzDeliLine[0];
   };
   this.size = function() {
-    return currentPos.length;
+    return katzDeliLine.length;
   };
   this.isEmpty = function() {
-    return (currentPos.length === 0);
+    return (katzDeliLine.length === 0);
   };
   var welcomeMsg = "Welcome, " + name + ". You are number " + currentPos + " in line.";
   
